@@ -1,0 +1,48 @@
+/* Video de fondo que cubre tanto el header como el nav */
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1; /* Asegura que el video quede detrás del contenido */
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+}
+
+/* Estilos para el header */
+header {
+  position: relative;
+  width: 100%;
+  height: 70vh; /* El header ocupa toda la pantalla */
+  background-color: transparent;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 20px;  /* Aumentamos el padding para hacerlo más redondo */
+  border-radius: 20%;
+  font-size: 20px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+.green-gradient{
+background: rgb(203,234,231);
+background: linear-gradient(0deg, rgba(203,234,231,1) 0%, rgba(148,200,151,1) 100%);
+color:white;
+}
+
