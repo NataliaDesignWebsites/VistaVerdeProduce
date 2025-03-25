@@ -93,7 +93,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: 'Roboto', sans-serif;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -10886,7 +10886,8 @@ header {
 }
 
 .whatsapp-button:hover {
-  background-color: #128C7E;
+  background-color: #128c7e;
+  color:white;
 }
 
 .green-gradient{
@@ -10912,7 +10913,7 @@ color:white;
 }
 
 .bg-image-green {
-  background: url('/assets/bg-pfresh.webp') no-repeat center center;
+  background: url('../assets/about/s2-bg1.webp') no-repeat center center;
   background-size: cover;
   position: relative; /* Fija la imagen */
   top: 0;
@@ -10923,7 +10924,7 @@ color:white;
 }
 
 .bg-image-broccoli {
-  background: url('/assets/bg-broccoli.webp') no-repeat center center;
+  background: url('../assets/about/s4-bg1.webp') no-repeat center center;
   background-size: cover;
   position: relative; /* Fija la imagen */
   top: 0;
