@@ -39,10 +39,12 @@
                 }
             }
         </style>
+
     </head>
     
     <body class="d-flex flex-column h-100" style="background-color: #e9ffee;">
         <main class="flex-shrink-0"> 
+
             <!-- Video de fondo -->
             <div class="video-background">
                 <video autoplay muted loop>
@@ -52,30 +54,29 @@
             </div>
             
             <!-- Navigation-->
+
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container px-5">
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/logo Oficial VistaVerde Produce1080x1080.avif" >
+                        <img src="assets/logo Oficial VistaVerde Produce1080x1080.avif" alt="Logo" >
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html" id="nav-home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html" id="nav-about">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html" id="nav-contact">Contact</a></li>
                             <!-- Dropdown de idiomas -->
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img id="selected-flag" src="assets/usa-flag.png" alt="Flag" style="width: 30px; height: auto;">
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <!-- Opción de bandera de USA -->
                                     <li><a class="dropdown-item" href="#" id="usa-language">
                                         <img src="assets/usa-flag.png" alt="USA Flag" style="width: 25px; height: auto;">
                                     </a></li>
-                                    <!-- Opción de bandera de México -->
                                     <li><a class="dropdown-item" href="#" id="mexico-language">
                                         <img src="assets/mex-flag.png" alt="Mexico Flag" style="width: 25px; height: auto;">
                                     </a></li>
@@ -86,61 +87,59 @@
                 </div>
             </nav>
 
-
             <!-- Header-->
-            <header class="py-5" >
-                <div class="container px-5">
-                    <div class="row align-items-center justify-content-center my-5">
-                        <div class="col-lg-12 col-xl-12 col-xxl-12">
-                            <div class="py-5 text-center text-xl-start">
-                                <h1 class="display-2 fw-bolder mb-2" style="color:#456000">The color of fresh quality</h1>
-                                <p class="lead fw-normal display-5 text-white mb-4">Fresh and high quality products</p>
-                               <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-success btn-lg px-4 me-sm-3" href="#!">Get Started</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <header class="py-5">
+            <div class="container px-5 h-100">
+            <div class="row align-items-center justify-content-center h-100 my-5">
+            <div class="col-lg-12 col-xl-12 col-xxl-12">
+                <div class="py-5 text-center text-xl-start">
+                    <h1 class="display-1 fw-bolder mb-2" style="color:#456000; text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);">The color of fresh quality</h1>
+                    <p class="lead fw-normal display-4 text-white mb-4" style="text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);">Fresh and high quality products</p>
                 </div>
+            </div>
+            </div>
+            </div>
             </header>
 
-            
-     <!--Sección Primaria-->
+            <!--Sección Primaria-->
             <section class="py-5">
-                <div class="container px-5 my-5 py-5">
-                    <div class="row gx-0">
-                        <!-- Title and paragraphs on the left -->
-                        <div class="col-lg-4 d-flex flex-column" style="background-color: #c06ea2; border-radius: 15px; padding: 20px;">
-                            <hr style="border: 1px solid #000; width: 50%; margin-top: 0;">
-                            <h1 class="fw-bolder mb-2" style="font-size: 2.8rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">The color of fresh quality</h1> 
-                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
-                            <p style="font-size: 1.3rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
-                                At Vista Verde Produce, we take pride in delivering fresh, high-quality produce straight from our farms to your table. Our commitment to freshness is reflected in our slogan, 'The Color of Fresh Quality.'
-                            </p>
-                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
-                        </div>
+            <div class="container px-5 my-5 py-5">
+            <div class="row gx-0">
+            <!-- Title and paragraphs on the left -->
+            <div class="col-lg-4 d-flex flex-column" style="background-color: #c06ea2; border-radius: 15px; padding: 20px;">
+                <hr style="border: 1px solid #000; width: 50%; margin-top: 0;">
+                <h1 class="fw-bolder mb-2 animated-title" id="main-title" style="font-size: 2.8rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    The color of fresh quality
+                </h1>
+                <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
+                <p id="main-paragraph" style="font-size: 1.3rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    At Vista Verde Produce, we take pride in delivering fresh, high-quality produce straight from our farms to your table. Our commitment to freshness is reflected in our slogan, 'The Color of Fresh Quality.'
+                </p>
+                <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
+            </div>
 
-                        <div class="col-lg-4 d-flex flex-column" style="background-color: #a1f137; border-radius: 15px; padding: 20px;">
-                            <hr style="border: 1px solid #000; width: 50%; margin-top: 0;">
-                            <h1 class="fw-bolder mb-2" style="font-size: 2.8rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">When you think of fresh produce, what comes to mind?</h1> 
-                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
-                            <p style="font-size: 1.3rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
-                                Bright, vibrant colors that pop with flavor and nutrients. That's exactly what we deliver at Vista Verde Produce.
-                            </p>
-                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
-                        </div>
+            <div class="col-lg-4 d-flex flex-column" style="background-color: #a1f137; border-radius: 15px; padding: 20px;">
+                <hr style="border: 1px solid #000; width: 50%; margin-top: 0;">
+                <h1 class="fw-bolder mb-2 animated-title" id="section-1-title" style="font-size: 2.8rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">When you think of fresh produce, what comes to mind?</h1>
+                <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
+                <p id="section-1-paragraph" style="font-size: 1.3rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    Bright, vibrant colors that pop with flavor and nutrients. That's exactly what we deliver at Vista Verde Produce.
+                </p>
+                <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
+            </div>
 
-                        <div class="col-lg-4 d-flex flex-column" style="background-color: #34a8eb; border-radius: 15px; padding: 20px;">
-                            <hr style="border: 1px solid #000; width: 50%; margin-top: 0;">
-                            <h1 class="fw-bolder mb-2" style="font-size: 2.8rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">Our broccoli is a deep shade of green</h1> 
-                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
-                            <p style="font-size: 1.3rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
-                                Our bell peppers are a rainbow of reds, yellows, and greens, and our lettuces are a crisp and refreshing shade of emerald. These colors aren't just for show - they're a sign of the quality and freshness you can expect from our products.
-                            </p>
-                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-4 d-flex flex-column" style="background-color: #34a8eb; border-radius: 15px; padding: 20px;">
+                <hr style="border: 1px solid #000; width: 50%; margin-top: 0;">
+                <h1 class="fw-bolder mb-2 animated-title" id="section-2-title" style="font-size: 2.8rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">Our broccoli is a deep shade of green</h1>
+                <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
+                <p id="section-2-paragraph" style="font-size: 1.3rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    Our bell peppers are a rainbow of reds, yellows, and greens, and our lettuces are a crisp and refreshing shade of emerald. These colors aren't just for show - they're a sign of the quality and freshness you can expect from our products.
+                </p>
+                <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
+            </div>
+
+            </div>
+            </div>
             </section>
 
             <!--Sección Secundaria-->
@@ -158,12 +157,12 @@
                             </div>
 
                             <!-- Texto h1 y icono sobre la imagen -->
-                            <div class="position-absolute top-50 start-50 translate-middle p-3 text-justify" style="z-index: 5; transform: translate(-50%, -50%); width: 90%; bottom: 20px; text-align: justify; display: flex; flex-direction: column; justify-content: center;">
-                                <h1 class="text-white text-shadow mb-3" style="text-shadow: 2px 2px 5px black, 0 0 25px #fff, 0 0 5px darkblue; font-size: 1.5rem; color: rgba(255, 255, 255, 0.9); margin-bottom: 15px;">
+                            <div class="position-absolute top-50 start-50 translate-middle p-3 text-justify " style="z-index: 5; transform: translate(-50%, -50%); width: 90%; bottom: 20px; text-align: justify; display: flex; flex-direction: column; justify-content: center;">
+                                <h1 class="text-white text-shadow mb-3 animated-title" style="text-shadow: 2px 2px 5px black, 0 0 25px #fff, 0 0 5px darkblue; font-size: 1.5rem; color: rgba(255, 255, 255, 0.9); margin-bottom: 15px;">
                                     We are dedicated to providing the highest quality produce to our customers. Our commitment to sustainability and ethical business practices sets us apart from other companies in the industry.
                                 </h1>
                                 <!-- Ícono de choza -->
-                                <i class="bi bi-house-door text-white text-center" style="font-size: 40px;"></i>
+                                <i class="bi bi-house-door text-white text-center animated-title" style="font-size: 40px;"></i>
                             </div>
                         </div>
 
@@ -173,17 +172,17 @@
                             <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5);"></div>
 
                             <!-- Recuadro verde con texto -->
-                            <div class="position-absolute top-0 start-0 w-50 p-3" style="background-color: #61af7f; z-index: 10; margin-top: 30px;">
+                            <div class="position-absolute top-0 start-0 w-50 p-3 " style="background-color: #61af7f; z-index: 10; margin-top: 30px;">
                                 <p class="text-white mb-0" style="font-size: 1rem;">Why Choose Vista Verde Produce?</p>
                             </div>
 
                             <!-- Texto h1 y icono sobre la imagen -->
                             <div class="position-absolute top-50 start-50 translate-middle p-3 text-justify" style="z-index: 5; transform: translate(-50%, -50%); width: 90%; bottom: 20px; text-align: justify; display: flex; flex-direction: column; justify-content: center;">
-                                <h1 class="text-white text-shadow mb-3" style="text-shadow: 2px 2px 5px black, 0 0 25px #fff, 0 0 5px darkblue; font-size: 1.5rem; color: rgba(255, 255, 255, 0.9); margin-bottom: 15px;">
+                                <h1 class="text-white text-shadow mb-3 animated-title" style="text-shadow: 2px 2px 5px black, 0 0 25px #fff, 0 0 5px darkblue; font-size: 1.5rem; color: rgba(255, 255, 255, 0.9); margin-bottom: 15px;">
                                     With a focus on innovation and customer satisfaction, we offer solutions for all your business needs. From our expert logistics to our experienced team, you can trust that we will deliver the best possible products and services.
                                 </h1>
                                 <!-- Ícono de hoja (vegetal) -->
-                                <i class="bi bi-lightbulb text-white text-center" style="font-size: 40px;"></i>
+                                <i class="bi bi-lightbulb text-white text-center animated-title" style="font-size: 40px;"></i>
                             </div>
                         </div>
                     </div>
@@ -197,11 +196,11 @@
                         <!-- Columna izquierda con el título, imagen y botón -->
                         <div class="col-lg-6 col-12 d-flex flex-column align-items-center py-5">
                             <div class="text-center text-white shadow-lg p-3 rounded" style="background-color: rgba(0, 0, 0, 0.5); z-index: 10; margin-top: 80px;">
-                                <h2 class="mb-3" style="text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4); font-size: 3rem;">Locations</h2>
+                                <h2 class="mb-3 animated-title" style="text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4); font-size: 3rem;">Locations</h2>
                                 <!-- Imagen del camioncito (más grande y centrada con bordes redondeados) -->
                                 <img src="/assets/home/s3-img1.png" class="img-fluid rounded" style="max-width: 300px; height: auto; cursor: pointer;">
                                 <!-- Texto creativo debajo del título -->
-                                <p class="text-white mt-3" style="font-size: 1.5rem; text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);">
+                                <p class="text-white mt-3 animated-title" style="font-size: 1.5rem; text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);">
                                     We are proudly based in both Irapuato, Guanajuato and McAllen, Texas, offering our wide range of vegetable export services to meet your needs. No matter where you are, we’re here to deliver fresh, quality produce right to your doorstep.
                                 </p>
                                 <!-- Botón "Ver en Google Maps" que abre el modal -->
@@ -259,8 +258,6 @@
                     </div>
                 </div>
             </div>
-
-
 
             <!-- Our Partners-->
             <section class="container px-5 my-5">
@@ -321,8 +318,6 @@
             </section>
         </main>
 
-            
-           
         <!-- Footer -->
         <footer class="bg-success py-4 mt-auto">
             <div class="container px-5">
@@ -360,30 +355,13 @@
 
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        
-        <script>
-                    document.addEventListener("DOMContentLoaded", function() {
-                    // Selección de elementos
-                    const usaFlag = document.getElementById("usa-language");
-                    const mexicoFlag = document.getElementById("mexico-language");
-                    const selectedFlagImg = document.getElementById("selected-flag");
 
-                    // Evento para la bandera de USA
-                    usaFlag.addEventListener("click", function() {
-                        selectedFlagImg.src = "assets/usa-flag.png";  // Cambia la imagen de la bandera seleccionada
-                    });
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-                    // Evento para la bandera de México
-                    mexicoFlag.addEventListener("click", function() {
-                        selectedFlagImg.src = "assets/mex-flag.png";  // Cambia la imagen de la bandera seleccionada
-                    });
-                });
-        </script>
-        
-    
+        <!-- Core theme JS-->
+        <script src="js/index.js"></script>
         
     </body>
-
-
 
 </html>
