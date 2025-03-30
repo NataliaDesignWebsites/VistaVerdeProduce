@@ -50,20 +50,42 @@
                     Tu navegador no soporta el video.
                 </video>
             </div>
-                 <!-- Navigation-->
-                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container px-5">
-                        <a class="navbar-brand" href="index.html"><img src="assets/logo Oficial VistaVerde Produce1080x1080.avif" ></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                            </ul>
-                        </div>
+            
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/logo Oficial VistaVerde Produce1080x1080.avif" >
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <!-- Dropdown de idiomas -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img id="selected-flag" src="assets/usa-flag.png" alt="Flag" style="width: 30px; height: auto;">
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <!-- Opción de bandera de USA -->
+                                    <li><a class="dropdown-item" href="#" id="usa-language">
+                                        <img src="assets/usa-flag.png" alt="USA Flag" style="width: 25px; height: auto;">
+                                    </a></li>
+                                    <!-- Opción de bandera de México -->
+                                    <li><a class="dropdown-item" href="#" id="mexico-language">
+                                        <img src="assets/mex-flag.png" alt="Mexico Flag" style="width: 25px; height: auto;">
+                                    </a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
+                </div>
+            </nav>
+
 
             <!-- Header-->
             <header class="py-5" >
@@ -82,39 +104,48 @@
                 </div>
             </header>
 
-            <!-- Sección 1-->
-            <section class="py-4" id="">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5">
+            
+     <!--Sección Primaria-->
+            <section class="py-5">
+                <div class="container px-5 my-5 py-5">
+                    <div class="row gx-0">
                         <!-- Title and paragraphs on the left -->
-                        <div class="col-lg-4 d-flex flex-column" style="background-color: #c06ea2; height: 300px;">
-                            <hr style="border: 1px solid #fff; width: 50%; margin-top: 0;">
-                            <p>
-                                <h1 class="fw-bolder mb-2" >Why Choose Vista Verde Produce?</h1> 
-                                <hr class="my-4">
-                                <p class="fs-1"></p>We are dedicated to providing the highest quality produce to our customers.
-                                <hr class="my-4">
+                        <div class="col-lg-4 d-flex flex-column" style="background-color: #c06ea2; border-radius: 15px; padding: 20px;">
+                            <hr style="border: 1px solid #000; width: 50%; margin-top: 0;">
+                            <h1 class="fw-bolder mb-2" style="font-size: 2.8rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">The color of fresh quality</h1> 
+                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
+                            <p style="font-size: 1.3rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                                At Vista Verde Produce, we take pride in delivering fresh, high-quality produce straight from our farms to your table. Our commitment to freshness is reflected in our slogan, 'The Color of Fresh Quality.'
                             </p>
+                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
                         </div>
 
-                        <div class="col-lg-4 d-flex flex-column" style="background-color: #a1f137; height: 300px;">
-                            <hr style="border: 1px solid #fff; width: 50%; margin-top: 0;">
-                            <p>Lorem ipsumdolor sit amet consectetur adipisicing elit. Sit modi rem, dicta blanditiis nisi iste repellat! Similique asperiores aperiam temporibus necessitatibus perspiciatis incidunt impedit optio, accusamus mollitia illum sapiente quibusdam?</p>
-                            <hr class="my-4">
+                        <div class="col-lg-4 d-flex flex-column" style="background-color: #a1f137; border-radius: 15px; padding: 20px;">
+                            <hr style="border: 1px solid #000; width: 50%; margin-top: 0;">
+                            <h1 class="fw-bolder mb-2" style="font-size: 2.8rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">When you think of fresh produce, what comes to mind?</h1> 
+                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
+                            <p style="font-size: 1.3rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                                Bright, vibrant colors that pop with flavor and nutrients. That's exactly what we deliver at Vista Verde Produce.
+                            </p>
+                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
                         </div>
-                        <div class="col-lg-4 d-flex flex-column" style="background-color: #34a8eb; height: 300px;">
-                            <hr style="border: 1px solid #fff; width: 50%; margin-top: 0;">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A laudantium velit saepe vitae. Sapiente fuga nesciunt dolores. Eos quos doloremque quibusdam praesentium et beatae nemo suscipit. Maxime in alias pariatur.
-                            <hr class="my-4">
+
+                        <div class="col-lg-4 d-flex flex-column" style="background-color: #34a8eb; border-radius: 15px; padding: 20px;">
+                            <hr style="border: 1px solid #000; width: 50%; margin-top: 0;">
+                            <h1 class="fw-bolder mb-2" style="font-size: 2.8rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">Our broccoli is a deep shade of green</h1> 
+                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
+                            <p style="font-size: 1.3rem; color: rgba(0, 0, 0, 0.8); text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                                Our bell peppers are a rainbow of reds, yellows, and greens, and our lettuces are a crisp and refreshing shade of emerald. These colors aren't just for show - they're a sign of the quality and freshness you can expect from our products.
+                            </p>
+                            <hr class="my-4" style="border-top: 1px solid #000; width: 50%; margin-top: 0;">
                         </div>
-                        
                     </div>
                 </div>
             </section>
 
             <!--Sección Secundaria-->
-            <section class="py-1" id="">
-                <div class="container-fluid px-5 my-5">
+            <section>
+                <div class="container-fluid px-5">
                     <div class="row gx-5">
                         <!-- Primera columna con imagen de fondo oscura -->
                         <div class="col-lg-6 d-flex flex-column" style="background-image: url('assets/home/s2-img1.webp'); background-size: cover; height: 600px; position: relative;">
@@ -123,14 +154,16 @@
                             
                             <!-- Recuadro verde con texto -->
                             <div class="position-absolute top-0 start-0 w-50 p-3" style="background-color: #61af7f; z-index: 10; margin-top: 30px;">
-                                <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class="text-white mb-0" style="font-size: 1rem;">Why Choose Vista Verde Produce?</p>
                             </div>
 
                             <!-- Texto h1 y icono sobre la imagen -->
-                            <div class="position-absolute top-50 start-50 translate-middle p-3 text-center" style="z-index: 5;">
-                                <h1 class="text-white text-shadow mb-3" style="text-shadow: 2px 2px 5px black, 0 0 25px #fff, 0 0 5px darkblue;">Gran Título Aquí</h1>
-                                <!-- Ícono de Bootstrap -->
-                                <i class="bi bi-star-fill text-white" style="font-size: 50px;"></i>
+                            <div class="position-absolute top-50 start-50 translate-middle p-3 text-justify" style="z-index: 5; transform: translate(-50%, -50%); width: 90%; bottom: 20px; text-align: justify; display: flex; flex-direction: column; justify-content: center;">
+                                <h1 class="text-white text-shadow mb-3" style="text-shadow: 2px 2px 5px black, 0 0 25px #fff, 0 0 5px darkblue; font-size: 1.5rem; color: rgba(255, 255, 255, 0.9); margin-bottom: 15px;">
+                                    We are dedicated to providing the highest quality produce to our customers. Our commitment to sustainability and ethical business practices sets us apart from other companies in the industry.
+                                </h1>
+                                <!-- Ícono de choza -->
+                                <i class="bi bi-house-door text-white text-center" style="font-size: 40px;"></i>
                             </div>
                         </div>
 
@@ -141,45 +174,57 @@
 
                             <!-- Recuadro verde con texto -->
                             <div class="position-absolute top-0 start-0 w-50 p-3" style="background-color: #61af7f; z-index: 10; margin-top: 30px;">
-                                <p class="text-white mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <p class="text-white mb-0" style="font-size: 1rem;">Why Choose Vista Verde Produce?</p>
                             </div>
 
                             <!-- Texto h1 y icono sobre la imagen -->
-                            <div class="position-absolute top-50 start-50 translate-middle p-3 text-center" style="z-index: 5; transform: translate(-50%, -50%);">
-                                <h1 class="text-white text-shadow mb-3" style="text-shadow: 2px 2px 5px black, 0 0 25px #fff, 0 0 5px darkblue;">Gran Título Aquí</h1>
-                                <!-- Ícono de Bootstrap -->
-                                <i class="bi bi-heart-fill text-white" style="font-size: 50px;"></i>
+                            <div class="position-absolute top-50 start-50 translate-middle p-3 text-justify" style="z-index: 5; transform: translate(-50%, -50%); width: 90%; bottom: 20px; text-align: justify; display: flex; flex-direction: column; justify-content: center;">
+                                <h1 class="text-white text-shadow mb-3" style="text-shadow: 2px 2px 5px black, 0 0 25px #fff, 0 0 5px darkblue; font-size: 1.5rem; color: rgba(255, 255, 255, 0.9); margin-bottom: 15px;">
+                                    With a focus on innovation and customer satisfaction, we offer solutions for all your business needs. From our expert logistics to our experienced team, you can trust that we will deliver the best possible products and services.
+                                </h1>
+                                <!-- Ícono de hoja (vegetal) -->
+                                <i class="bi bi-lightbulb text-white text-center" style="font-size: 40px;"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Sección con dos columnas -->
-            <section class="py-5" id="">
-                <div class="container px-5 my-5 text-dark" style="background-color: #a2c913; border-radius: 8px;">
-                    <div class="row gx-5">
-
-                        <!-- Columna con texto centrado sobre imagen de fondo -->
-                        <div class="col-lg-6 col-12 d-flex flex-column">
-                            <div class="position-relative top-50 start-50 translate-middle text-center text-white shadow-lg p-3 rounded" style="background-color: rgba(0, 0, 0, 0.5); z-index: 10;">
-                                <h2 class="mb-3" style="text-shadow: 2px 2px 5px rgba(0,0,0,0.7);">Our Locations</h2>
-                                <p style="text-shadow: 1px 1px 3px rgba(0,0,0,0.7);">We are proud to serve our community in multiple locations. Visit us to experience our quality services and unique offerings tailored to each community.</p>
-                                <!-- Icono de ubicación de Bootstrap -->
+            <!-- Tercera Sección -->
+            <section class="py-5">
+                <div class="container-fluid px-5 my-5 text-dark" style="background-color: #317752; border-radius: 8px;">
+                    <div class="row">
+                        <!-- Columna izquierda con el título, imagen y botón -->
+                        <div class="col-lg-6 col-12 d-flex flex-column align-items-center py-5">
+                            <div class="text-center text-white shadow-lg p-3 rounded" style="background-color: rgba(0, 0, 0, 0.5); z-index: 10; margin-top: 80px;">
+                                <h2 class="mb-3" style="text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4); font-size: 3rem;">Locations</h2>
+                                <!-- Imagen del camioncito (más grande y centrada con bordes redondeados) -->
+                                <img src="/assets/home/img.png" class="img-fluid rounded" style="max-width: 300px; height: auto; cursor: pointer;">
+                                <!-- Texto creativo debajo del título -->
+                                <p class="text-white mt-3" style="font-size: 1.5rem; text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);">
+                                    We are proudly based in both Irapuato, Guanajuato and McAllen, Texas, offering our wide range of vegetable export services to meet your needs. No matter where you are, we’re here to deliver fresh, quality produce right to your doorstep.
+                                </p>
+                                <!-- Botón "Ver en Google Maps" que abre el modal -->
                                 <div class="mt-4">
-                                    <button class="btn btn-light rounded-circle p-3" style="font-size: 2rem;"  data-bs-toggle="modal" data-bs-target="#locationModal">
-                                        <i class="bi bi-geo-alt"></i> <!-- Icono de ubicación -->
+                                    <button class="btn btn-success rounded-pill px-4 py-2" data-bs-toggle="modal" data-bs-target="#locationModal">
+                                        View on Google Maps
                                     </button>
                                 </div>
                             </div>
                         </div>
+                        <!-- Columna derecha con las ubicaciones -->
+                        <div class="col-lg-6 col-12 d-flex flex-column justify-content-center py-5">
+                            <div class="text-center">
+                                <!-- Mapa de McAllen, Texas -->
+                                <div class="row mb-3 justify-content-center">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228938.01922845095!2d-98.40442796889442!3d26.289024501933437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866576324d9637df%3A0x2f1d39a9b52c0eb8!2sMcAllen%2C%20TX%2C%20USA!5e0!3m2!1sen!2smx!4v1742757994048!5m2!1sen!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    <p class="text-white mt-2" style="font-size: 1.5rem; text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);">McAllen, Texas</p>
+                                </div>
 
-                        <!-- Columna con imagen -->
-                        <div class="col-lg-6 col-12 d-flex flex-column" style="background-color: #a2c913;  border-radius: 8px;">
-                            <div class="">
-                                <!-- Imagen con puntero y click para abrir modal -->
-                                <div class="shadow-lg p-3 mb-5 bg-white rounded mt-5" style="border-radius: 8px; transition: all 0.3s ease-in-out;">
-                                    <img src="assets/home/s3-img1.jpg"  class="img-fluid" style="max-width: 100%; height: auto; border-radius: 8px; cursor: pointer;" data-bs-toggle="modal" data-bs-target="#locationModal">
+                                <!-- Mapa de Irapuato, Guanajuato -->
+                                <div class="row justify-content-center">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59723.897110838014!2d-101.3932378910461!3d20.680009058056136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842c7e1f7b7e24f5%3A0xc7fd081ecde9689b!2sIrapuato%2C%20Guanajuato!5e0!3m2!1sen!2smx!4v1742757272665!5m2!1sen!2smx" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    <p class="text-white mt-2" style="font-size: 1.5rem; text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);">Blvd. Mariano J. García #1315, La Nueva Central de Abastos. 36590. Irapuato, Gto</p>
                                 </div>
                             </div>
                         </div>
@@ -187,31 +232,23 @@
                 </div>
             </section>
 
-
             <!-- Modal con mapas -->
             <div class="modal fade" id="locationModal" tabindex="-1" aria-labelledby="locationModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
+                <div class="modal-dialog modal-lg" inert>  <!-- Aplicamos inert aquí -->
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="locationModalLabel">Our Locations</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
                         <div class="modal-body">
                             <div class="row">
-                                <!-- Columna para títulos de las ciudades -->
-                                <div class="col-md-6">
-                                    <h4>Irapuato, Guanajuato</h4>
-                                    <h4>McAllen, Texas</h4>
-                                </div>
-                                <!-- Columna para los mapas -->
-                                <div class="col-md-6">
+                                <!-- Columna única para los mapas y los títulos -->
+                                <div class="col-12">
                                     <!-- Mapa de McAllen, Texas -->
                                     <div class="mb-3">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228938.01922845095!2d-98.40442796889442!3d26.289024501933437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866576324d9637df%3A0x2f1d39a9b52c0eb8!2sMcAllen%2C%20TX%2C%20USA!5e0!3m2!1sen!2smx!4v1742757994048!5m2!1sen!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228938.01922845095!2d-98.40442796889442!3d26.289024501933437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x866576324d9637df%3A0x2f1d39a9b52c0eb8!2sMcAllen%2C%20TX%2C%20USA!5e0!3m2!1sen!2smx!4v1742757994048!5m2!1sen!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        <h4 class="text-center mt-3">McAllen, Texas</h4>
                                     </div>
                                     <!-- Mapa de Irapuato, Guanajuato -->
                                     <div>
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59723.897110838014!2d-101.3932378910461!3d20.680009058056136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842c7e1f7b7e24f5%3A0xc7fd081ecde9689b!2sIrapuato%2C%20Guanajuato!5e0!3m2!1sen!2smx!4v1742757272665!5m2!1sen!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59723.897110838014!2d-101.3932378910461!3d20.680009058056136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842c7e1f7b7e24f5%3A0xc7fd081ecde9689b!2sIrapuato%2C%20Guanajuato!5e0!3m2!1sen!2smx!4v1742757272665!5m2!1sen!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        <h4 class="text-center mt-3">Irapuato, Guanajuato</h4>
                                     </div>
                                 </div>
                             </div>
@@ -222,6 +259,8 @@
                     </div>
                 </div>
             </div>
+
+
 
             <!-- Our Partners-->
             <section class="container px-5 my-5">
@@ -236,7 +275,7 @@
             
                     <!-- Carrusel de imágenes -->
                     <div class="col-lg-8">
-                        <div class="fs-2 mb-4 fw-bold  text-center" style="">Our Partners</div>
+                        <div class="fs-2 mb-4 fw-bold text-center">Our Partners</div>
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <!-- Slide 1 -->
@@ -280,19 +319,34 @@
                     </div>
                 </div>
             </section>
-            
-   
         </main>
 
             
-        <!-- Footer-->
+           
+        <!-- Footer -->
         <footer class="bg-success py-4 mt-auto">
             <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="text-center">
-                        <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Vista Verde Produce 2025</div></div>
+                <div class="row align-items-center justify-content-between">
+                    <!-- Columna de texto con copyright centrado y más grande -->
+                    <div class="col-12 col-sm-6 text-center">
+                        <div class="small m-0 text-white" style="font-size: 1rem;">&copy; Vista Verde Produce 2025</div>
                     </div>
-                    
+
+                    <!-- Columna de iconos de redes sociales alineados a la derecha -->
+                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-sm-end">
+                        <!-- Icono de Instagram -->
+                        <a href="https://www.instagram.com" class="text-white me-3" target="_blank">
+                            <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+                        </a>
+                        <!-- Icono de Facebook -->
+                        <a href="https://www.facebook.com" class="text-white me-3" target="_blank">
+                            <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+                        </a>
+                        <!-- Icono de LinkedIn -->
+                        <a href="https://www.linkedin.com" class="text-white" target="_blank">
+                            <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
@@ -307,7 +361,29 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         
+        <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+                    // Selección de elementos
+                    const usaFlag = document.getElementById("usa-language");
+                    const mexicoFlag = document.getElementById("mexico-language");
+                    const selectedFlagImg = document.getElementById("selected-flag");
+
+                    // Evento para la bandera de USA
+                    usaFlag.addEventListener("click", function() {
+                        selectedFlagImg.src = "assets/usa-flag.png";  // Cambia la imagen de la bandera seleccionada
+                    });
+
+                    // Evento para la bandera de México
+                    mexicoFlag.addEventListener("click", function() {
+                        selectedFlagImg.src = "assets/mex-flag.png";  // Cambia la imagen de la bandera seleccionada
+                    });
+                });
+        </script>
+        
     
         
     </body>
+
+
+
 </html>
